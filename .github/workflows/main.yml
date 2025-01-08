@@ -22,7 +22,6 @@ jobs:
 
       - name: Print debugging information
         run: |
-        echo "Node Version: $(node --version)"
         echo "NPM Version: $(npm --version)"
         echo "Working Directory: $(pwd)"
         echo "Contents of Working Directory: $(ls - l)"
